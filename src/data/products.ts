@@ -9,9 +9,9 @@ export const products: Product[] = [
     price: 150,
     category: "drinks",
     sizes: {
-      small: 200,
-      medium: 300,
-      large: 400,
+      small: 180,
+      medium: 220,
+      large: 260,
     },
   },
   {
@@ -22,9 +22,9 @@ export const products: Product[] = [
     price: 160,
     category: "drinks",
     sizes: {
-      small: 200,
-      medium: 300,
-      large: 400,
+      small: 180,
+      medium: 220,
+      large: 260,
     },
   },
   {
@@ -35,9 +35,9 @@ export const products: Product[] = [
     price: 100,
     category: "drinks",
     sizes: {
-      small: 100,
-      medium: 200,
-      large: 300,
+      small: 180,
+      medium: 220,
+      large: 260,
     },
   },
   {

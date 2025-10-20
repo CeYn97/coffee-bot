@@ -68,6 +68,7 @@
 .size-button {
   background: #f5f5f5;
   border: 1px solid #ddd;
+  color: #333;
   border-radius: 8px;
   padding: 0.5rem 1rem;
   font-size: 0.9rem;
@@ -81,9 +82,9 @@
 }
 
 .size-button.active {
-  background: #8B4513;
+  background: #8b4513;
   color: white;
-  border-color: #8B4513;
+  border-color: #8b4513;
 }
 
 .product-footer {
@@ -96,7 +97,7 @@
 .price {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #8B4513;
+  color: #8b4513;
 }
 
 .quantity-controls {
@@ -111,6 +112,7 @@
 .quantity-btn {
   background: white;
   border: 1px solid #ddd;
+  color: #333;
   border-radius: 6px;
   width: 32px;
   height: 32px;
@@ -125,7 +127,7 @@
 
 .quantity-btn:hover {
   background: #f0f0f0;
-  border-color: #8B4513;
+  border-color: #8b4513;
 }
 
 .quantity {
@@ -136,7 +138,7 @@
 
 .add-to-cart-btn {
   width: 100%;
-  background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);
+  background: linear-gradient(135deg, #8b4513 0%, #a0522d 100%);
   color: white;
   border: none;
   padding: 0.75rem;
@@ -148,7 +150,7 @@
 }
 
 .add-to-cart-btn:hover {
-  background: linear-gradient(135deg, #A0522D 0%, #8B4513 100%);
+  background: linear-gradient(135deg, #a0522d 0%, #8b4513 100%);
   transform: translateY(-1px);
   box-shadow: 0 4px 15px rgba(139, 69, 19, 0.3);
 }

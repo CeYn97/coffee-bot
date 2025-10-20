@@ -1,67 +1,67 @@
-import type { Product } from '../types/index';
+import type { Product } from "../types/index";
 
 export const products: Product[] = [
   {
-    id: '1',
-    name: 'Капучино',
-    description: 'Классический итальянский кофе с молочной пенкой',
-    image: 'https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&h=300&fit=crop',
+    id: "1",
+    name: "Капучино",
+    description: "Классический итальянский кофе с молочной пенкой",
+    image: "public/test-img/capuchino.webp",
     price: 150,
-    category: 'drinks',
+    category: "drinks",
     sizes: {
-      small: 120,
-      medium: 150,
-      large: 180
-    }
+      small: 200,
+      medium: 300,
+      large: 400,
+    },
   },
   {
-    id: '2',
-    name: 'Латте',
-    description: 'Нежный кофе с большим количеством молока',
-    image: 'https://images.unsplash.com/photo-1561047029-3000c68339ca?w=400&h=300&fit=crop',
+    id: "2",
+    name: "Латте",
+    description: "Нежный кофе с большим количеством молока",
+    image: "public/test-img/latte.jpg",
     price: 160,
-    category: 'drinks',
+    category: "drinks",
     sizes: {
-      small: 130,
-      medium: 160,
-      large: 190
-    }
+      small: 200,
+      medium: 300,
+      large: 400,
+    },
   },
   {
-    id: '3',
-    name: 'Американо',
-    description: 'Черный кофе с добавлением горячей воды',
-    image: 'https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=400&h=300&fit=crop',
+    id: "3",
+    name: "Американо",
+    description: "Черный кофе с добавлением горячей воды",
+    image: "public/test-img/americano.webp",
     price: 100,
-    category: 'drinks',
+    category: "drinks",
     sizes: {
-      small: 80,
-      medium: 100,
-      large: 120
-    }
+      small: 100,
+      medium: 200,
+      large: 300,
+    },
   },
   {
-    id: '4',
-    name: 'Круассан с шоколадом',
-    description: 'Свежий круассан с начинкой из темного шоколада',
-    image: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400&h=300&fit=crop',
+    id: "4",
+    name: "Круассан с шоколадом",
+    description: "Свежий круассан с начинкой из темного шоколада",
+    image: "public/test-img/kryassan.png",
     price: 120,
-    category: 'food'
+    category: "food",
   },
   {
-    id: '5',
-    name: 'Тирамису',
-    description: 'Классический итальянский десерт с кофе и маскарпоне',
-    image: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&h=300&fit=crop',
+    id: "5",
+    name: "Тирамису",
+    description: "Классический итальянский десерт с кофе и маскарпоне",
+    image: "public/test-img/desert_tiramisu.jpg",
     price: 180,
-    category: 'desserts'
+    category: "desserts",
   },
   {
-    id: '6',
-    name: 'Чизкейк',
-    description: 'Нежный чизкейк с ягодным соусом',
-    image: 'https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=400&h=300&fit=crop',
+    id: "6",
+    name: "Чизкейк",
+    description: "Нежный чизкейк с ягодным соусом",
+    image: "public/test-img/Cheesecake.webp",
     price: 160,
-    category: 'desserts'
-  }
+    category: "desserts",
+  },
 ];
